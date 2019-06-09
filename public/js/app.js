@@ -4,6 +4,7 @@ const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
 weatherForm.addEventListener('submit', (e) => {
+    // prevents page from refreshing after pressing search
     e.preventDefault()
 
     const location = searchInput.value
